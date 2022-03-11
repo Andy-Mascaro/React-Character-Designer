@@ -16,9 +16,6 @@ export default function Head({ setHead }) {
         <option value="horse">Horse</option>
       </select>
      
-
-
-
     </div>
   );
 }

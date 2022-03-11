@@ -4,6 +4,7 @@ import './Middle.css';
 export default function Middle({ setMiddle }) {
   return (
     <div className="middleEditor">
+      <label>Middle</label>
       <select id="middle-dropdown"
         onChange={(e) => {
           setMiddle(e.target.value);
