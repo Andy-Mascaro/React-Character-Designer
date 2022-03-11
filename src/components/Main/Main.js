@@ -9,7 +9,7 @@ import './Main.css';
 export default function Main() {
   const [head, setHead] = useState('head');
   const [middle, setMiddle] = useState('middle');
-  const [bottom, setBottom] = useState('bottom');
+  const [bottom, setBottom] = useState('leg');
   return (
     <main>
       <div>
