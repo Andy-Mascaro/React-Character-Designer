@@ -14,15 +14,17 @@ export default function Main() {
     <main>
       <div>
         <Head
-          setHead={setHead} />
+          setHead={setHead} 
+          head={head} />
         <Middle
-          setMiddle={setMiddle} />
+          setMiddle={setMiddle}
+          middle={middle} />
         <Bottom
-          setBottom={setBottom} />
+          setBottom={setBottom}
+          bottom={bottom} />
         {/* <Preview  */}
-          head={head}
-          middle={middle}
-          bottom={bottom}  
+          
+            
 
       </div>
     </main>
