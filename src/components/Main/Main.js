@@ -4,6 +4,7 @@ import Head from '../Head/Head';
 import Middle from '../Middle/Middle';
 import Preview from '../../components/Preview/Preview';
 import Phrase from '../Phrase/Phrase';
+import background from './background.jpeg';
 import './Main.css';
 
 
@@ -15,7 +16,7 @@ export default function Main() {
   const [phraseArray, setPhraseArray] = useState([]);
 
   return (
-    <main>
+    <main style={{ backgroundImage: `url(${background})` }}>
       <div>
         <Head
           setHead={setHead}/>
