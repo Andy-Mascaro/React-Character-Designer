@@ -3,7 +3,7 @@ import Head from '../Head/Head';
 import './Main.css';
 
 
-export default function Main({ setHead, setMiddle, setBottom, }) {
+export default function Main() {
     const [head, setHead] = useState('head');
     const [middle, setMiddle] = useState('middle');
     const [bottom, setBottom] = useState('bottom');
@@ -11,6 +11,8 @@ export default function Main({ setHead, setMiddle, setBottom, }) {
     <main>
         <div>
           <Head
+          head={head}
+
         </div>
         </main>
   )
