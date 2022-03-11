@@ -7,22 +7,23 @@ import './Main.css';
 
 
 export default function Main() {
-  const [head, setHead] = useState('bird');
+  const [head, setHead] = useState('head');
   const [middle, setMiddle] = useState('middle');
   const [bottom, setBottom] = useState('bottom');
   return (
     <main>
       <div>
         <Head
-          setHead={setHead} 
-          head={head} />
+          setHead={setHead}/>
         <Middle
-          setMiddle={setMiddle}
-          middle={middle} />
+          setMiddle={setMiddle}/>
         <Bottom
-          setBottom={setBottom}
-          bottom={bottom} />
-        <Preview head={head}/>
+          setBottom={setBottom}/>
+         
+        <Preview 
+          head={head}
+          middle={middle}
+          bottom={bottom}/>
           
             
 
