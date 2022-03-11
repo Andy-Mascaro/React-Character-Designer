@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Bottom({ setBottom }) {
   return (
-    <div>className=bottomEditor
+    <div className="bottomEditor">
       <label>Bottom</label>
       <select id="bottom-dropdown"
         onChange={(e) => {
@@ -13,7 +13,7 @@ export default function Bottom({ setBottom }) {
         <option value="white">White Pants</option>
         <option value="blue">Blue Jeans</option>
       </select>
-      
+
     </div>
   );
 }
