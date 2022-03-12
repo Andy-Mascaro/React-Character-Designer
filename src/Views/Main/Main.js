@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Bottom from '../Bottom/Bottom';
-import Head from '../Head/Head';
-import Middle from '../Middle/Middle';
+import Bottom from '../../components/Bottom/Bottom';
+import Head from '../../components/Head/Head';
+import Middle from '../../components/Middle/Middle';
 import Preview from '../../components/Preview/Preview';
-import Phrase from '../Phrase/Phrase';
+import Phrase from '../../components/Phrase/Phrase';
 import background from './background.jpeg';
 import './Main.css';
 
